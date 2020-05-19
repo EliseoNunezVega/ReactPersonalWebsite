@@ -1,0 +1,43 @@
+{
+    "title": "Eliseo's Attempt at a Murphy Research Survey",
+    "pages": [
+        {
+            "name": "page1",
+            "elements": [
+                {
+                    "name" : "name",
+                    "type": "text",
+                    "title": "Please enter your name:",
+                    "placeHolder": "",
+                    "isRequired": true
+                }
+            ]
+        
+        }, 
+        {
+            "name": "page2",
+            "elements":[{
+                "type": "radiogroup",
+                "name": "car",
+                "title": "What car are you driving?",
+                "isRequired": true,
+                "colCount": 4,
+                "choices": [
+                    "None",
+                    "Ford",
+                    "Vauxhall",
+                    "Volkswagen",
+                    "Nissan",
+                    "Audi",
+                    "Mercedes-Benz",
+                    "BMW",
+                    "Peugeot",
+                    "Toyota",
+                    "Citroen"
+                ]
+            }
+
+            ]
+        }
+    ]
+}
